@@ -12,7 +12,7 @@ namespace Tyuiu.ZolotovaKA.Sprint6.Task6.V15.Lib
                 while ((line = reader.ReadLine()) != null)
                 {
                     string[] new_line = line.Split(' ');
-                    resStr += new_line.Last() + " ";
+                    resStr += new_line.Last() + "";
                 }
             }
             return resStr;
